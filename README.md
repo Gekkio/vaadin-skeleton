@@ -14,4 +14,4 @@ Usage
         sbt update jetty
 
 3. Take a walk or drink some coffee while GWT works its magic :)
-4. Go to http://localhost:8080/vaadinskel
+4. Go to [http://localhost:8080/vaadinskel](http://localhost:8080/vaadinskel)
