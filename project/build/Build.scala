@@ -8,7 +8,7 @@ class VaadinSkeleton(info: ProjectInfo) extends DefaultWebProject(info) with JRe
     val gwt = "2.0.4"
     val geronimoServlet = "1.2"
     val jetty = "7.0.2.v20100331"
-    val vaadin = "6.4.0"
+    val vaadin = "6.4.7"
   }
 
   val geronimoServletSpec = "org.apache.geronimo.specs" % "geronimo-servlet_2.5_spec" % Versions.geronimoServlet % "provided"
