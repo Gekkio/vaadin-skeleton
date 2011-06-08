@@ -7,7 +7,7 @@ class VaadinSkeleton(info: ProjectInfo) extends DefaultWebProject(info) with JRe
   object Versions {
     val gwt = "2.0.4"
     val geronimoServlet = "1.2"
-    val jetty = "7.0.2.v20100331"
+    val jetty = "7.4.2.v20110526"
     val vaadin = "6.6.1"
   }
 
