@@ -5,7 +5,7 @@ import sbt._
 class VaadinSkeleton(info: ProjectInfo) extends DefaultWebProject(info) with JRebelWebPlugin with VaadinPlugin {
 
   object Versions {
-    val gwt = "2.0.4"
+    val gwt = "2.3.0"
     val geronimoServlet = "1.2"
     val jetty = "7.4.2.v20110526"
     val vaadin = "6.6.1"
