@@ -12,8 +12,8 @@ class VaadinSkeleton(info: ProjectInfo) extends DefaultWebProject(info) with JRe
   }
 
   val geronimoServletSpec = "org.apache.geronimo.specs" % "geronimo-servlet_2.5_spec" % Versions.geronimoServlet % "provided"
-  val gwtDev = "com.google.gwt" % "gwt-dev" % Versions.gwt
-  val gwtUser = "com.google.gwt" % "gwt-user" % Versions.gwt
+  val gwtDev = "com.google.gwt" % "gwt-dev" % Versions.gwt % "provided"
+  val gwtUser = "com.google.gwt" % "gwt-user" % Versions.gwt % "provided"
   val vaadin = "com.vaadin" % "vaadin" % Versions.vaadin
 
   val jettyServer = "org.eclipse.jetty" % "jetty-server" % Versions.jetty % "test"
